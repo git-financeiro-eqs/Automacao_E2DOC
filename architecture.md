@@ -9,6 +9,7 @@ O código é composto por seis módulos:
 - guiLog.py;
 - utils.py
 - gui.py;
+  
 \
 \
 O integradorE2DOC contém uma classe responsável por estabelecer a comunicação entre a automação e o E2DOC. Ela possui como atributos as credenciais para conexão, 
