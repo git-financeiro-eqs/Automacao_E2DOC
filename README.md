@@ -35,7 +35,7 @@ Essa é a versão final da automação, e já está em produção na maquina dos
    ```bash
    https://github.com/git-financeiro-eqs/Automacao_E2DOC.git
 
-3. Instale as dependências:
+2. Instale as dependências:
   ```bash
       pip install -r requirements.txt
    ```
@@ -43,6 +43,9 @@ Essa é a versão final da automação, e já está em produção na maquina dos
   ```bash
       python gui.py
   ```
+4. Observação:
+   O programa fica armazenado integralmente na máquina local do operador. Como ele alimenta a pasta de comprovantes compartilhada da empresa,
+   é preciso que o operador tenha localmente as pastas financeiras sincronizadas com a nuvem.
 
 
 ## Como Usar
