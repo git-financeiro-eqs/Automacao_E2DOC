@@ -31,16 +31,16 @@ Essa é a versão final da automação, e já está em produção na maquina dos
 
 ## Instalação
 1. Clone o repositório ou baixe o arquivo ZIP do programa:
-   ```
+   ```bash
    https://github.com/git-financeiro-eqs/Automacao_E2DOC.git
 
-3. Instale as dependências:
-  ``` 
-  pip install -r requirements.txt
+2. Instale as dependências:
+  ```bash
+   pip install -r requirements.txt
 
-5. Execute o programa:
-  ```
-  python gui.py
+3. Execute o programa:
+  ```bash
+   python gui.py
 
 
 
