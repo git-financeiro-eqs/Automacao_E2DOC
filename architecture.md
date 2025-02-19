@@ -1,7 +1,7 @@
 ## Arquitetura do código
 
-Código procedural.\
-
+Código procedural.
+\
 O código é composto por seis módulos:
 - integradorE2DOC.py;
 - conexaoDB.py;
