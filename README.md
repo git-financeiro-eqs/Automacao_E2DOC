@@ -37,11 +37,11 @@ Essa é a versão final da automação, e já está em produção na maquina dos
 
 3. Instale as dependências:
   ```bash
-   pip install -r requirements.txt
+      pip install -r requirements.txt
    ```
 3. Execute o programa:
   ```bash
-   python gui.py
+      python gui.py
   ```
 
 
