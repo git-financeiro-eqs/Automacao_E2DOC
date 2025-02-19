@@ -1,5 +1,7 @@
 ## Arquitetura do código
 
+Código procedural.
+
 O código é composto por seis módulos:
 - integradorE2DOC.py;
 - conexaoDB.py;
@@ -7,6 +9,8 @@ O código é composto por seis módulos:
 - guiLog.py;
 - utils.py
 - gui.py;
+
+
   
 
 O integradorE2DOC contém uma classe responsável por estabelecer a comunicação entre a automação e o E2DOC. Ela possui como atributos as credenciais para conexão, 
@@ -21,6 +25,10 @@ O guiLog é a janela de resultados que apresenta os totais enviados na ultima ex
 O utils contém funções pertinentes para a execução do programa;
 
 O gui é a interface de interação do usuário.
+
+
+
+
 
 
 
