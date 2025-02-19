@@ -32,7 +32,7 @@ Essa é a versão final da automação, e já está em produção na maquina dos
 ## Instalação
 1. Clone o repositório ou baixe o arquivo ZIP do programa:
    
-   https://github.com/git-financeiro-eqs/Automacao_E2DOC.git
+https://github.com/git-financeiro-eqs/Automacao_E2DOC.git
 
 3. Instale as dependências:
    
