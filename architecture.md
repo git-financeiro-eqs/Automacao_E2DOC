@@ -1,6 +1,6 @@
 ## Arquitetura do código
 
-Código procedural.
+Código procedural.\
 
 O código é composto por seis módulos:
 - integradorE2DOC.py;
@@ -24,6 +24,8 @@ O guiLog é a janela de resultados que apresenta os totais enviados na ultima ex
 O utils contém funções pertinentes para a execução do programa;
 
 O gui é a interface de interação do usuário.\
+\
+\
 \
 \
 (Isto é um resumo, o código é bem escrito e de fácil leitura, não havendo assim a necessidade de maior aprofundamento neste documento).
