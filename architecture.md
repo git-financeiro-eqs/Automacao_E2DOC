@@ -53,6 +53,7 @@ Este documento descreve a arquitetura modular do projeto Automação E2DOC, deta
 <br/>
 O fluxo principal do programa ocorre no módulo docHudson.py, que coordena a execução da automação. Ele utiliza:
 <br/>
+
 - gui.py para obter os arquivos lote selecionados pelo usuário.
 - utils.py para manipulações necessárias no processo.
 - conexaoDB.py para buscar dados no banco da empresa.
