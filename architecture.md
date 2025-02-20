@@ -3,6 +3,7 @@
 Arquitetura procedural modular.\
 Este documento descreve a arquitetura modular do projeto E2DOC, detalhando os papéis e responsabilidades de cada módulo. O objetivo é garantir que o código seja fácil de entender, manter e expandir.
 <br/>
+<br/>
 \
 O código é composto por seis módulos:
 - integradorE2DOC.py;
