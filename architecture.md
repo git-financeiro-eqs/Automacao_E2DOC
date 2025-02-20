@@ -59,6 +59,7 @@ O fluxo principal do programa ocorre no módulo docHudson.py, que coordena a exe
 - integradorE2DOC.py para enviar os dados e arquivos para o E2DOC via API. Após a conclusão, os resultados são exibidos ao usuário pelo guiLog.py.
 <br/>
 <br/>
+
 ## Fluxos Alternativos
 Exceções e cenários específicos:
 <br/>
