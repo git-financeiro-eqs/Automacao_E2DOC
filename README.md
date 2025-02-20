@@ -28,8 +28,8 @@ Essa é a versão final da automação, e já está em produção na maquina dos
 - pymysql (Consulta ao banco de dados da empresa)
   
 
-\
-## Instalação
+
+\## Instalação
 1. Clone o repositório ou baixe o arquivo ZIP do programa:
    
    ```bash
