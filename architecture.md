@@ -1,4 +1,4 @@
-## Arquitetura do código
+## Visão Geral da Arquitetura – Automação E2DOC
 
 Código procedural.\
 \
