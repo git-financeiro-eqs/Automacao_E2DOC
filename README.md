@@ -43,7 +43,7 @@ Essa é a versão final da automação, e já está em produção na maquina dos
     python gui.py
 ```
 4. Observação:\
-   O programa fica armazenado integralmente na máquina local do operador. Como ele alimenta a pasta de comprovantes compartilhada da empresa,
+   O programa temo como servidor a própria máquina do operador. Como ele alimenta a pasta de comprovantes compartilhada da empresa,
    é preciso que o operador tenha localmente as pastas financeiras sincronizadas com a nuvem.
 <br/>
 <br/>
