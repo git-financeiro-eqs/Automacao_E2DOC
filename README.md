@@ -26,9 +26,8 @@ Essa é a versão final da automação, e já está em produção na maquina dos
 - hashlib para a criação de uma chave de identificação exigida no objeto da API;
 - API E2DOC (Integração via HTTP) - Requests para fazer as requisições -;
 - pymysql (Consulta ao banco de dados da empresa)
-
-
-
+\
+\
 ## Instalação
 1. Clone o repositório ou baixe o arquivo ZIP do programa:
    
