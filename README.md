@@ -48,7 +48,7 @@ Essa é a versão final da automação, e já está em produção na maquina dos
 <br/>
 <br/>
 <br/>
-## Como Usar\
+## Como Usar\  
 1. Abra o programa.
 2. Clique no botão "Selecionar Arquivos" e escolha o arquivo lote de comprovantes.
 3. Clique em "Enviar" e acompanhe o progresso até que finalize e apresente a tela de resultados.
