@@ -14,7 +14,7 @@ Existe uma lista de processos que podem ocorrer pagamento manual, todos mapeados
 Através de uma informação complementar distinta inserida no comprovante "manual" - convencionada em reuniões de levantamento de requisitos onde determinou-se a criação de uma chave de identificação - faz-se então a distinção dos comprovantes. Essa chave obedece a seguinte estrutura: CHAVECPFCÓDDENATUREZA; CHAVE00000000000FER.
 
 A automação irá ler cada comprovante do arquivo lote, separar aquele pago manualmente, coletar o CPF do colaborador, destiná-lo a sua pasta processual final, e, através do CPF, buscar os dados pertinentes ao preenchimento do formulário do E2DOC direto no banco de dados da empresa, depois integrar os tais comprovantes à plataforma através da API que eles disponibilizam para os seus clientes.
-Essa é a versão final da automação, e já está em produção na maquina dos operadores do financeiro. É um software Desktop, um executável que pode ser distribuido, não é hospedado em um servidor geral.  
+Essa é a versão final da automação, e já está em produção na maquina dos operadores do financeiro. É um software Desktop, um executável que pode ser distribuído, não é hospedado em um servidor geral.  
 <br/>
 <br/>
 <br/>
@@ -54,4 +54,4 @@ Essa é a versão final da automação, e já está em produção na maquina dos
 1. Abra o programa.
 2. Clique no botão "Selecionar Arquivos" e escolha o arquivo lote de comprovantes.
 3. Clique em "Enviar" e acompanhe o progresso até que finalize e apresente a tela de resultados.
-4. Você pode também vizualizar o PDF do arquivo lote ou tirá-lo da lista de arquivos a enviar, basta clicar no botão que tem como ícone a logo da EQS. Esse botão abrirá uma pequena tela que oferece essas duas opções.
+4. Você pode também visualizar o PDF do arquivo lote ou tirá-lo da lista de arquivos a enviar, basta clicar no botão que tem como ícone a logo da EQS. Esse botão abrirá uma pequena tela que oferece essas duas opções.
