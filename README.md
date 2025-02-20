@@ -42,8 +42,8 @@ Essa é a versão final da automação, e já está em produção na maquina dos
 ```bash
     python gui.py
 ```
-4. Observação:\
-   O programa temo como servidor a própria máquina do operador. Como ele alimenta a pasta de comprovantes compartilhada da empresa,
+4. Atente-se!\
+   O programa tem como servidor a própria máquina do operador. Como ele alimenta a pasta de comprovantes compartilhada da empresa,
    é preciso que o operador tenha localmente as pastas financeiras sincronizadas com a nuvem.
 <br/>
 <br/>
