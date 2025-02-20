@@ -7,7 +7,6 @@ Este documento descreve a arquitetura modular do projeto Automação E2DOC, deta
 <br/>
 <br/>
 <br/>
-<br/>
 <table>
   <thead>
     <tr>
