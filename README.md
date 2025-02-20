@@ -14,10 +14,9 @@ Existe uma lista de processos que podem ocorrer pagamento manual, todos mapeados
 Através de uma informação complementar distinta inserida no comprovante "manual" - convencionada em reuniões de levantamento de requisitos onde determinou-se a criação de uma chave de identificação - faz-se então a distinção dos comprovantes. Essa chave obedece a seguinte estrutura: CHAVECPFCÓDDENATUREZA; CHAVE00000000000FER.
 
 A automação irá ler cada comprovante do arquivo lote, separar aquele pago manualmente, coletar o CPF do colaborador, destiná-lo a sua pasta processual final, e, através do CPF, buscar os dados pertinentes ao preenchimento do formulário do E2DOC direto no banco de dados da empresa, depois integrar os tais comprovantes à plataforma através da API que eles disponibilizam para os seus clientes.
-Essa é a versão final da automação, e já está em produção na maquina dos operadores do financeiro. É um software Desktop, um executável que pode ser distribuido, não é hospedado em um servidor geral.
+Essa é a versão final da automação, e já está em produção na maquina dos operadores do financeiro. É um software Desktop, um executável que pode ser distribuido, não é hospedado em um servidor geral.  
 
-
-
+    
 ## Tecnologias Utilizadas
 - Python;
 - PyPDF2 para manipulação de arquivos PDF;
@@ -25,10 +24,9 @@ Essa é a versão final da automação, e já está em produção na maquina dos
 - Base64 para conversão dos arquivos na base padrão exigida no objeto da API;
 - hashlib para a criação de uma chave de identificação exigida no objeto da API;
 - API E2DOC (Integração via HTTP) - Requests para fazer as requisições -;
-- pymysql (Consulta ao banco de dados da empresa)\
-  
+- pymysql (Consulta ao banco de dados da empresa)  
 
-
+    
 ## Instalação
 1. Clone o repositório ou baixe o arquivo ZIP do programa:
    
