@@ -11,7 +11,91 @@ Esses comprovantes "manuais" precisam estar disponíveis para consulta do setor 
 Na interface de interação, o usuário irá clicar em um botão que o permitirá selecionar o, ou, os arquivos lote desejados. 
 O caminho desses arquivos lote é armazenado em uma lista, que será percorrida pela automação. Antigamente, o usuário separava comprovante por comprovante pela sua natureza, pelo seu tipo de pagamento, por exemplo: pagamento de VA, VT, salário, férias, e etc...
 Existe uma lista de processos que podem ocorrer pagamento manual, todos mapeados nessa automação, e, cada tipo de natureza de pagamento tem uma pasta final correspondente na nuvem, onde o comprovante deve ser salvo isolado dos demais comprovantes, tendo como título do arquivo apenas o nome completo do colaborador para o qual se destinou aquele pagamento.
-Através de uma informação complementar distinta inserida no comprovante "manual" - convencionada em reuniões de levantamento de requisitos onde determinou-se a criação de uma chave de identificação - faz-se então a distinção dos comprovantes. Essa chave obedece a seguinte estrutura: CHAVECPFCÓDDENATUREZA; CHAVE00000000000FER.
+Através de uma informação complementar distinta inserida no comprovante "manual" - convencionada em reuniões de levantamento de requisitos onde determinou-se a criação de uma chave de identificação - faz-se então a distinção dos comprovantes. Essa chave obedece a seguinte estrutura: 
+
+Nomenclatura para os comprovantes manuais: 
+ 
+Será seguido da seguinte maneira: CHAVE CPF + SIGLA
+Com exceção dos VAs e VTs, que terá o acréscimo do pedido no final da chave: CHAVE CPF + SIGLA + PEDIDO
+ 
+<table>
+  <thead>
+    <tr>
+      <th>TIPO COMP</th>
+      <th>SIGLA</th>
+      <th>CHAVE-EXEMPLO</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Locação veículo</td>
+      <td>LOC</td>
+      <td>CHAVE 00000000000LOC</td>
+    </tr>
+    <tr>
+      <td>VT</td>
+      <td>VAT</td>
+      <td>CHAVE 00000000000VATPEDIDO</td>
+    </tr>
+    <tr>
+      <td>VA</td>
+      <td>VAR</td>
+      <td>CHAVE 00000000000VARPEDIDO</td>
+    </tr>
+    <tr>
+      <td>Folha geral</td>
+      <td>FOL</td>
+      <td>CHAVE 00000000000FOL</td>
+    </tr>
+    <tr>
+      <td>Adto Revap</td>
+      <td>ARV</td>
+      <td>CHAVE 00000000000ARV</td>
+    </tr>
+    <tr>
+      <td>Adto Repar</td>
+      <td>ARP</td>
+      <td>CHAVE 00000000000ARP</td>
+    </tr>
+    <tr>
+      <td>Adto 13º</td>
+      <td>13A</td>
+      <td>CHAVE 0000000000013A</td>
+    </tr>
+    <tr>
+      <td>13º - 1ª Parcela</td>
+      <td>131</td>
+      <td>CHAVE 00000000000131</td>
+    </tr>
+    <tr>
+      <td>13º - 2ª Parcela</td>
+      <td>132</td>
+      <td>CHAVE 00000000000132</td>
+    </tr>
+    <tr>
+      <td>13º - Tribunal de Justiça</td>
+      <td>13T</td>
+      <td>CHAVE 0000000000013T</td>
+    </tr>
+    <tr>
+      <td>Rescisão</td>
+      <td>RES</td>
+      <td>CHAVE 00000000000RES</td>
+    </tr>
+    <tr>
+      <td>Férias</td>
+      <td>FER</td>
+      <td>CHAVE 00000000000FER</td>
+    </tr>
+    <tr>
+      <td>Multa FGTS</td>
+      <td>FGT</td>
+      <td>CHAVE 00000000000FGT</td>
+    </tr>
+  </tbody>
+</table>
+<br/>
+<br/>
 
 A automação irá ler cada comprovante do arquivo lote, separar aquele pago manualmente, coletar o CPF do colaborador, destiná-lo a sua pasta processual final, e, através do CPF, buscar os dados pertinentes ao preenchimento do formulário do E2DOC direto no banco de dados da empresa, depois integrar os tais comprovantes à plataforma através da API que eles disponibilizam para os seus clientes.
 Essa é a versão final da automação, e já está em produção na maquina dos operadores do financeiro. É um software Desktop, um executável que pode ser distribuído, não é hospedado em um servidor geral.  
