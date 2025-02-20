@@ -28,6 +28,7 @@ Essa é a versão final da automação, e já está em produção na maquina dos
 - pymysql (Consulta ao banco de dados da empresa)
   <br/>
   <br/>
+  <br/>
 ## Instalação
 1. Clone o repositório ou baixe o arquivo ZIP do programa:
 ```bash
@@ -46,7 +47,8 @@ Essa é a versão final da automação, e já está em produção na maquina dos
    é preciso que o operador tenha localmente as pastas financeiras sincronizadas com a nuvem.
 <br/>
 <br/>
-## Como Usar
+<br/>
+## Como Usar\
 1. Abra o programa.
 2. Clique no botão "Selecionar Arquivos" e escolha o arquivo lote de comprovantes.
 3. Clique em "Enviar" e acompanhe o progresso até que finalize e apresente a tela de resultados.
