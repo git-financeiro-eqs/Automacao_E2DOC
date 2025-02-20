@@ -16,6 +16,7 @@ O código é composto por seis módulos:
 <br/>
 <br/>
 | Módulo | Descrição | Principais Responsabilidades |
+| --- | --- | --- |
 | integradorE2DOC.py | Classe que estabelece comunicação com o E2DOC via API. Cada método corresponde a uma requisição POST. | Comunicação com a API E2DOC, autenticação e envio de dados. |
 | conexaoDB.py | Função que realiza a conexão com o banco de dados da empresa para busca de informações do colaborador. |	Conexão segura com o banco de dados. |
 | docHudson.py | Contém a função principal e o roteiro da automação. | Fluxo de trabalho da automação. |
