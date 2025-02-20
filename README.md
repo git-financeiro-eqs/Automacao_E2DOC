@@ -128,6 +128,7 @@ Essa é a versão final da automação, e já está em produção na maquina dos
    é preciso que o operador tenha localmente essas pastas financeiras sincronizadas com a nuvem.
 <br/>
 <br/>
+
 ## Como Usar<br/>
 
 1. Abra o programa.
