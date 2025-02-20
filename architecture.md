@@ -4,7 +4,7 @@ Arquitetura procedural modular.\
 Este documento descreve a arquitetura modular do projeto E2DOC, detalhando os papéis e responsabilidades de cada módulo. O objetivo é garantir que o código seja fácil de entender, manter e expandir.
 <br/>
 <br/>
-\
+<br/>
 O código é composto por seis módulos:
 - integradorE2DOC.py;
 - conexaoDB.py;
@@ -12,23 +12,18 @@ O código é composto por seis módulos:
 - guiLog.py;
 - utils.py
 - gui.py;
-  
-\
-\
-O integradorE2DOC contém uma classe responsável por estabelecer a comunicação entre a automação e o E2DOC. Ela possui como atributos as credenciais para conexão, 
-e cada método dela corresponde a uma requisição POST feita à plataforma E2DOC;
-
-O conexaoDB contém uma função que realiza a conexão da automação com o banco de dados e2doc da empresa;
-
-O docHudson contém a função principal, o roteiro da automação. Seu fluxo de trabalho segue esse roteiro;
-
-O guiLog é a janela de resultados que apresenta os totais enviados na ultima execução da automação;
-
-O utils contém funções pertinentes para a execução do programa;
-
-O gui é a interface de interação do usuário.\
-\
-\
-\
-\
+<br/>
+<br/>
+<br/>
+| Módulo | Descrição | Principais Responsabilidades |
+| integradorE2DOC.py | Classe que estabelece comunicação com o E2DOC via API. Cada método corresponde a uma requisição POST. | Comunicação com a API E2DOC, autenticação e envio de dados. |
+| conexaoDB.py | Função que realiza a conexão com o banco de dados da empresa para busca de informações do colaborador. |	Conexão segura com o banco de dados. |
+| docHudson.py | Contém a função principal e o roteiro da automação. | Fluxo de trabalho da automação. |
+| guiLog.py |	Interface de resultado que exibe o log da execução, apresentando os totais enviados. | Apresentar resultados ao usuário. |
+| utils.py | Funções auxiliares que suportam a execução do programa. | Operações utilitárias, manipulação de strings, validações. |
+| gui.py | Interface gráfica principal, permitindo interação do usuário para seleção de arquivos e execução da automação. |	Interface de interação com o usuário (Tkinter). |
+<br/>
+<br/>
+<br/>
+<br/>
 (Isto é um resumo, o código é bem escrito e de fácil leitura, não havendo assim a necessidade de maior aprofundamento neste documento).
