@@ -59,7 +59,7 @@ O fluxo principal do programa ocorre no módulo docHudson.py, que coordena a exe
 - integradorE2DOC.py para enviar os dados e arquivos para o E2DOC via API. Após a conclusão, os resultados são exibidos ao usuário pelo guiLog.py.
 <br/>
 <br/>
-### Fluxos Alternativos
+## Fluxos Alternativos
 Exceções e cenários específicos:
 <br/>
 O sistema foi pensado para capturar tipos de pagamento incorretos, que não correspondem a nenhum indice de classificação, e CPFs errados. Esses dados são apresentados no relatório que a própria automação envia para o E-mail.
