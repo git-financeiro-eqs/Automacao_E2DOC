@@ -2,6 +2,7 @@
 <br/>
 <br/>
 Arquitetura procedural modular.<br/>
+
 Este documento descreve a arquitetura modular do projeto Automação E2DOC, detalhando os papéis e responsabilidades de cada módulo. O objetivo é garantir que o código seja fácil de entender, manter e expandir.
 <br/>
 <br/>
@@ -51,7 +52,7 @@ Este documento descreve a arquitetura modular do projeto Automação E2DOC, deta
 <br/>
 <br/>
 O fluxo principal do programa ocorre no módulo docHudson.py, que coordena a execução da automação. Ele utiliza:
-
+<br/>
 - gui.py para obter os arquivos lote selecionados pelo usuário.
 - utils.py para manipulações necessárias no processo.
 - conexaoDB.py para buscar dados no banco da empresa.
