@@ -66,7 +66,7 @@ Exceções e cenários específicos:
 
 O sistema foi pensado para capturar tipos de pagamento incorretos, que não correspondem a nenhum indice de classificação, e CPFs errados. Esses dados são apresentados no relatório que a própria automação envia para o E-mail do financeiro.
 
-Os comprovantes do tipo folha tem uma particularidade no seu envio para o E2DOC. No formulário do E2DOC é preciso informar a competência daquele pagamento, todos os pagamentos tem como competência o mês vigente, menos os comprovantes do tipo folha. Esses comprovantes tem como competência sempre o mês anterior ao de geração do documento.
+Os comprovantes do tipo folha geral (FOL) tem uma particularidade no seu envio para o E2DOC. No formulário do E2DOC é preciso informar a competência daquele pagamento, todos os pagamentos tem como competência o mês vigente, menos os comprovantes do tipo folha. Esses comprovantes tem como competência sempre o mês anterior ao de geração do documento.
 <br/>
 <br/>
 <br/>
