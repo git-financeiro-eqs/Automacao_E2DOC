@@ -25,28 +25,27 @@ Essa é a versão final da automação, e já está em produção na maquina dos
 - Base64 para conversão dos arquivos na base padrão exigida no objeto da API;
 - hashlib para a criação de uma chave de identificação exigida no objeto da API;
 - API E2DOC (Integração via HTTP) - Requests para fazer as requisições -;
-- pymysql (Consulta ao banco de dados da empresa)  
-
-    
+- pymysql (Consulta ao banco de dados da empresa)
+  <br/>
+  <br/>
 ## Instalação
 1. Clone o repositório ou baixe o arquivo ZIP do programa:
-   
-   ```bash
-   https://github.com/git-financeiro-eqs/Automacao_E2DOC.git
-
+```bash
+    https://github.com/git-financeiro-eqs/Automacao_E2DOC.git
+```
 2. Instale as dependências:
-  ```bash
-      pip install -r requirements.txt
-   ```
+```bash
+    pip install -r requirements.txt
+```
 3. Execute o programa:
-  ```bash
-      python gui.py
-  ```
+```bash
+    python gui.py
+```
 4. Observação:\
    O programa fica armazenado integralmente na máquina local do operador. Como ele alimenta a pasta de comprovantes compartilhada da empresa,
    é preciso que o operador tenha localmente as pastas financeiras sincronizadas com a nuvem.
-
-
+<br/>
+<br/>
 ## Como Usar
 1. Abra o programa.
 2. Clique no botão "Selecionar Arquivos" e escolha o arquivo lote de comprovantes.
