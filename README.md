@@ -44,7 +44,7 @@ Essa é a versão final da automação, e já está em produção na maquina dos
 ```
 4. Atente-se!\
    O programa tem como servidor a própria máquina do operador. Como ele alimenta a pasta de comprovantes compartilhada da empresa,
-   é preciso que o operador tenha localmente as pastas financeiras sincronizadas com a nuvem.
+   é preciso que o operador tenha localmente essas pastas financeiras sincronizadas com a nuvem.
 <br/>
 <br/>
 <br/>
