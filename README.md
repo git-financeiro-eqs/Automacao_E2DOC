@@ -96,7 +96,6 @@ Com exceção dos VAs e VTs, que terá o acréscimo do pedido no final da chave:
 </table>
 <br/>
 <br/>
-
 A automação irá ler cada comprovante do arquivo lote, separar aquele pago manualmente, coletar o CPF do colaborador, destiná-lo a sua pasta processual final, e, através do CPF, buscar os dados pertinentes ao preenchimento do formulário do E2DOC direto no banco de dados da empresa, depois integrar os tais comprovantes à plataforma através da API que eles disponibilizam para os seus clientes.
 Essa é a versão final da automação, e já está em produção na maquina dos operadores do financeiro. É um software Desktop, um executável que pode ser distribuído, não é hospedado em um servidor geral.  
 <br/>
