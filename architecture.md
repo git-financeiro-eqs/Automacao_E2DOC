@@ -60,7 +60,7 @@ O fluxo principal do programa ocorre no módulo docHudson.py, que coordena a exe
 <br/>
 <br/>
 
-## Fluxos Alternativos
+### Fluxos Alternativos
 Exceções e cenários específicos:
 <br/>
 O sistema foi pensado para capturar tipos de pagamento incorretos, que não correspondem a nenhum indice de classificação, e CPFs errados. Esses dados são apresentados no relatório que a própria automação envia para o E-mail.
@@ -70,4 +70,7 @@ Os comprovantes do tipo folha tem uma particularidade no seu envio para o E2DOC.
 "Se o nome do arquivo não corresponder ao padrão, ele será movido para a pasta 'Não Processados' e o log será atualizado."
 <br/>
 <br/>
+<br/>
+<br/>
+
 (Isto é um resumo, o código é bem escrito e de fácil leitura, não havendo assim a necessidade de maior aprofundamento neste documento).
