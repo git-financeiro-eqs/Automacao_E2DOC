@@ -6,13 +6,13 @@ Este documento descreve a arquitetura modular do projeto Automação E2DOC, deta
 <br/>
 <br/>
 <br/>
-O código é composto por seis módulos:
-- integradorE2DOC.py;
-- conexaoDB.py;
-- docHudson.py;
-- guiLog.py;
-- utils.py
-- gui.py;
+O código é composto por seis módulos:<br/>
+- integradorE2DOC.py;<br/>
+- conexaoDB.py;<br/>
+- docHudson.py;<br/>
+- guiLog.py;<br/>
+- utils.py<br/>
+- gui.py;<br/>
 <br/>
 <br/>
 <br/>
