@@ -17,7 +17,7 @@ Nomenclatura para os comprovantes manuais:
  
 Será seguido da seguinte maneira: CHAVE CPF + SIGLA  
 Com exceção dos VAs e VTs, que terá o acréscimo do pedido no final da chave: CHAVE CPF + SIGLA + PEDIDO
- 
+<br/>
 <table>
   <thead>
     <tr>
@@ -100,7 +100,6 @@ A automação irá ler cada comprovante do arquivo lote, separar aquele pago man
 Essa é a versão final da automação, e já está em produção na maquina dos operadores do financeiro. É um software Desktop, um executável que pode ser distribuído, não é hospedado em um servidor geral.  
 <br/>
 <br/>
-<br/>
 ## Tecnologias Utilizadas
 - Python;
 - PyPDF2 para manipulação de arquivos PDF;
@@ -109,7 +108,6 @@ Essa é a versão final da automação, e já está em produção na maquina dos
 - hashlib para a criação de uma chave de identificação exigida no objeto da API;
 - API E2DOC (Integração via HTTP) - Requests para fazer as requisições -;
 - pymysql (Consulta ao banco de dados da empresa)
-  <br/>
   <br/>
   <br/>
 ## Instalação
@@ -130,8 +128,6 @@ Essa é a versão final da automação, e já está em produção na maquina dos
    é preciso que o operador tenha localmente essas pastas financeiras sincronizadas com a nuvem.
 <br/>
 <br/>
-<br/>
-
 ## Como Usar<br/>
 
 1. Abra o programa.
