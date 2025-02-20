@@ -15,14 +15,47 @@ O código é composto por seis módulos:
 <br/>
 <br/>
 <br/>
-| Módulo            | Descrição                                                                 | Principais Responsabilidades                                      |
-|-------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------|
-| **integradorE2DOC.py** | Classe que estabelece comunicação com o E2DOC via API. Cada método corresponde a uma requisição POST. | Comunicação com a API E2DOC, autenticação e envio de dados.       |
-| **conexaoDB.py**      | Função que realiza a conexão com o banco de dados da empresa para busca de informações do colaborador. | Conexão segura com o banco de dados.                              |
-| **docHudson.py**      | Contém a função principal e o roteiro da automação.                        | Fluxo de trabalho da automação.                                   |
-| **guiLog.py**         | Interface de resultado que exibe o log da execução, apresentando os totais enviados. | Apresentar resultados ao usuário.                                 |
-| **utils.py**          | Funções auxiliares que suportam a execução do programa.                    | Operações utilitárias, manipulação de strings, validações.        |
-| **gui.py**            | Interface gráfica principal, permitindo interação do usuário para seleção de arquivos e execução da automação. | Interface de interação com o usuário (Tkinter).                   |
+<table>
+  <thead>
+    <tr>
+      <th>Módulo</th>
+      <th>Descrição</th>
+      <th>Principais Responsabilidades</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>integradorE2DOC.py</strong></td>
+      <td>Classe que estabelece comunicação com o E2DOC via API. Cada método corresponde a uma requisição POST.</td>
+      <td>Comunicação com a API E2DOC, autenticação e envio de dados.</td>
+    </tr>
+    <tr>
+      <td><strong>conexaoDB.py</strong></td>
+      <td>Função que realiza a conexão com o banco de dados da empresa para busca de informações do colaborador.</td>
+      <td>Conexão segura com o banco de dados.</td>
+    </tr>
+    <tr>
+      <td><strong>docHudson.py</strong></td>
+      <td>Contém a função principal e o roteiro da automação.</td>
+      <td>Fluxo de trabalho da automação.</td>
+    </tr>
+    <tr>
+      <td><strong>guiLog.py</strong></td>
+      <td>Interface de resultado que exibe o log da execução, apresentando os totais enviados.</td>
+      <td>Apresentar resultados ao usuário.</td>
+    </tr>
+    <tr>
+      <td><strong>utils.py</strong></td>
+      <td>Funções auxiliares que suportam a execução do programa.</td>
+      <td>Operações utilitárias, manipulação de strings, validações.</td>
+    </tr>
+    <tr>
+      <td><strong>gui.py</strong></td>
+      <td>Interface gráfica principal, permitindo interação do usuário para seleção de arquivos e execução da automação.</td>
+      <td>Interface de interação com o usuário (Tkinter).</td>
+    </tr>
+  </tbody>
+</table>
 <br/>
 <br/>
 <br/>
