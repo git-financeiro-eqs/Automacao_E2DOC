@@ -51,7 +51,7 @@ Este documento descreve a arquitetura modular do projeto Automação E2DOC, deta
 </table>
 <br/>
 <br/>
-O fluxo principal do programa ocorre no módulo docHudson.py, que coordena a execução da automação. Ele utiliza:
+O fluxo principal do programa ocorre no módulo docHudson.py, que coordena a execução da automação. Ele utiliza:<br/>
 <br/>
 
 - gui.py para obter os arquivos lote selecionados pelo usuário.
