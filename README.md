@@ -15,7 +15,7 @@ Através de uma informação complementar distinta inserida no comprovante "manu
 
 Nomenclatura para os comprovantes manuais: 
  
-Será seguido da seguinte maneira: CHAVE CPF + SIGLA
+Será seguido da seguinte maneira: CHAVE CPF + SIGLA  
 Com exceção dos VAs e VTs, que terá o acréscimo do pedido no final da chave: CHAVE CPF + SIGLA + PEDIDO
  
 <table>
