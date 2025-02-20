@@ -1,7 +1,7 @@
 ## Visão Geral da Arquitetura – Automação E2DOC
 <br/>
 <br/>
-Arquitetura procedural modular.\
+Arquitetura procedural modular.<br/>
 Este documento descreve a arquitetura modular do projeto Automação E2DOC, detalhando os papéis e responsabilidades de cada módulo. O objetivo é garantir que o código seja fácil de entender, manter e expandir.
 <br/>
 <br/>
