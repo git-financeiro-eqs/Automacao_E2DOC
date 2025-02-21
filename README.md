@@ -102,7 +102,7 @@ Essa é a versão final da automação, e já está em produção na maquina dos
 <br/>
 <br/>
 ## Tecnologias Utilizadas
-- Python;
+- Python e suas bibliotecas nativas;
 - PyPDF2 para manipulação de arquivos PDF;
 - Tkinter (Interface Gráfica);
 - Base64 para conversão dos arquivos na base padrão exigida no objeto da API;
