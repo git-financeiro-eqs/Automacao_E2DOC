@@ -41,6 +41,10 @@ def retornar_banco(caminho):
 
 
 def retornar_dt_festiva():
+"""
+Função utilizada para inputar uma mensagem amistosa no relatório do E-mail e na tela de resultados.    
+"""
+
     _, data = retornar_data()
 
     feriados = {
@@ -69,6 +73,10 @@ def retornar_dt_festiva():
 
 
 def criar_arvore_diretorios(diretorio_destino, ano_vigente, mes_vigente, data_de_pagamento, tipo='Simples', pedido=''):
+"""
+Função utilizada para destinar os comprovantes para sua pasta processual compartilhada .
+"""
+
     if tipo == "FOLHA GERAL":
         mes = mes_vigente[:2]
         if mes == "01":
