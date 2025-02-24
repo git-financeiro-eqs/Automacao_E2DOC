@@ -228,5 +228,3 @@ def executar_automacao(arquivos_comprovante):
     utils.enviar_email(relatorio, tipo_pag_incorreto, cpfs_errados, compv_nao_env)     
     
     return modelos_enviados
-
-  
