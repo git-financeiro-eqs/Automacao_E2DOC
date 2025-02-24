@@ -23,11 +23,19 @@ ASSETS_PATH = OUTPUT_PATH / Path(r"assets")
 
 
 def relative_to_assets(path: str) -> Path:
+    """
+    Retorna o caminho relativo para o diretório de assets.
+    """
     return ASSETS_PATH / Path(path)
 
 
 
 def executar():
+    """
+    Executa a automação, processando e atualizando os resultados.
+    A função chama a automação que, após o término da execução, retorna uma lista relatório com tudo que foi enviado e atualiza as variáveis de contagem
+    para cada tipo de documento. Ao final, chama uma thread para abrir uma janela com o resultado da automação passando esse indicadores como parâmetro.
+    """
     global em_execucao, arquivos
     em_execucao.put(1)
 
@@ -80,6 +88,14 @@ Até a próxima!
 
 
 def acionar_automacao():
+    """
+    Aciona a automação. Como se fosse dar partida em um carro, metafóricamente. (O controle de interfaces Tkinter é um pouco complicado)
+    
+    A função exibe uma janela de espera com um progresso indeterminado enquanto os arquivos estão sendo enviados.
+    Concomitantemente, ela chama a função `executar` para processar os documentos e exibir os resultados,
+    isso enquanto bloqueia novas chamadas para a função principal.
+    """
+
     global arquivos, em_execucao
     if em_execucao.qsize() == 0 and arquivos:
         janela_espera = tk.Toplevel(window)
@@ -108,6 +124,12 @@ def acionar_automacao():
 
 
 def modificar_lista():
+    """
+    Modifica a lista de arquivos, permitindo que o usuário exclua arquivos ou abra os PDFs.
+    
+    Exibe uma janela com uma lista de arquivos selecionados, onde o usuário pode excluir arquivos selecionados
+    ou abrir o PDF correspondente.
+    """
     global arquivos, lista_controle, janela_aberta
 
     if janela_aberta:
@@ -172,6 +194,12 @@ def modificar_lista():
 
 
 def selecionar_arquivo():
+    """
+    Permite ao usuário selecionar arquivos PDF.
+    
+    A função abre um seletor de arquivos para o usuário escolher os arquivos. Os arquivos selecionados
+    são adicionados à lista `arquivos` e o label é atualizado com o nome do último arquivo.
+    """
     global caminho_arq_comprovante, arquivos, label_arquivo, lista_controle
     caminho_arq_comprovante = askopenfilenames(title="Selecione o arquivo com os comprovantes.", filetypes=[("PDF Files", "*.pdf")])
     verificacao = [arq for arq in caminho_arq_comprovante if arq not in arquivos]
@@ -184,6 +212,12 @@ def selecionar_arquivo():
 
 
 def atualizar_label():
+    """
+    Atualiza o label exibindo o nome do arquivo selecionado.
+
+    A função atualiza o label a cada 5 segundos, exibindo o nome do próximo arquivo na lista. Quando a lista
+    de arquivos estiver vazia, o label é apagado.
+    """
     global arquivos
     sleep(5)
     if len(arquivos) > 0:
