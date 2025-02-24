@@ -12,10 +12,10 @@ from tkinter import messagebox
 
 def executar_automacao(arquivos_comprovante):
     """
-        Função principal. Nela está o fluxo da tarefa que esse programa realiza.
-        Aqui é onde lê-se os comprovantes (arquivos PDF), identifica-se a chave de classificação, 
-        extrai-se informações como CPF e tipo de documento, destina-se esses documentos para sua pasta correspondente
-        na nuvem e no E2DOC, e se envia um relatório para o E-mail do grupo Financeiro.
+    Função principal. Nela está o fluxo da tarefa que esse programa realiza.
+    Aqui é onde lê-se os comprovantes (arquivos PDF), identifica-se a chave de classificação, 
+    extrai-se informações como CPF e tipo de documento, destina-se esses documentos para sua pasta correspondente
+    na nuvem e no E2DOC, e se envia um relatório para o E-mail do grupo Financeiro.
     """
     
     tipo_pag_incorreto = []
