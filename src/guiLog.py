@@ -3,7 +3,7 @@ from tkinter import Toplevel, Canvas, Label
 
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"Imagens")
+ASSETS_PATH = OUTPUT_PATH / Path(r"assets")
 
 
 def relative_to_assets(path: str) -> Path:
