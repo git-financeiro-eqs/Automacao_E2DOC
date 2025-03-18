@@ -33,5 +33,5 @@ def consultar_db(cpf):
             return regiao, centro_de_custo, nome
     
     except Exception as e:
-        return Exception(f"Erro ao se conectar com o banco de dados: {e}")
+        raise Exception(f"Erro ao se conectar com o banco de dados: {e}")
 
