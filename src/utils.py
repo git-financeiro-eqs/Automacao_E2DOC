@@ -42,7 +42,7 @@ def retornar_banco(caminho):
 
 def retornar_dt_festiva():
     """
-    Função utilizada para inputar uma mensagem amistosa no relatório do E-mail e na tela de resultados.    
+    Função utilizada para lançar uma mensagem amistosa no relatório do E-mail.    
     """
 
     _, data = retornar_data()
@@ -158,7 +158,7 @@ A seguinte chave inserida em um comprovante apresentou inconsistência:
 Devido alguma inconsistência os seguintes comprovantes não foram enviados para o E2DOC:
 {string_cne}'''
         else:
-            string_cne = " - ".join(compv_nao_env[0])
+            string_cne = " - ".join(str(item) for item in compv_nao_env[0])
             comp_nao_env = f'''
 Devido alguma inconsistência o seguinte comprovante não foi enviado para o E2DOC:
 {string_cne}'''
